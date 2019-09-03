@@ -13,7 +13,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 //import android.graphics.BitmapFactory;
 import android.graphics.Color;
-import android.graphics.Matrix;
+//import android.graphics.Matrix;
 import android.graphics.drawable.BitmapDrawable;
 //import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -26,7 +26,13 @@ import android.os.Bundle;
     import android.widget.ImageButton;
     import android.widget.Toast;
 
-    import org.opencv.imgproc.Imgproc;
+import org.opencv.android.Utils;
+import org.opencv.core.Core;
+import org.opencv.core.CvType;
+import org.opencv.core.Mat;
+import org.opencv.core.Point;
+import org.opencv.core.Scalar;
+import org.opencv.imgproc.Imgproc;
 
 /** testPhoto
  *      Goals: 1) Capture Image of uPAD
@@ -204,7 +210,11 @@ import android.os.Bundle;
                 }
             }
 
-            // Perform Feature Detection to Find Outer Wells
+            // Perform Circle Detection
+
+            // Draw Outline Around Circles
+
+            // Move to Second Activity to Confirm Correct Circle Detection
 
             // Once Outer Wells are Determined, Put a Box Around Them to Validate
                 // If Box is Wrong, Manually Adjust Boxes to Surrount Outer Well (may require another activity)
