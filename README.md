@@ -4,7 +4,8 @@
 - app\src\main\java\com\example\testPhoto\MainActivity.java
 - app\src\main\java\com\example\testPhoto\Analyze_Activity.java
 - app\src\main\AndroidManifest.xml
-- Where is the app design file?
+- app\src\main\res\layout\activity_analyze.xml
+- app\src\main\res\layout\activity_main.xml
 
 ## Explanation
 ### Main Activity
@@ -15,4 +16,11 @@
 ### Android Manifest
 - Contains the basis for the foundation of the code
 ### Build.Gradle
-- 
+- Contains all the implemented modules (including OpenCV341) needed to perform functions
+### Activity_Analyze.xml
+- Design file for the analyzing activity
+- This is where you design the visual side of the app specifically for the analyzing activity
+### Activity_Main.xml
+- Design file for the main activity screen
+- This is where you edit the visual design of the main screen of the app
+  - Must establish what buttons will be on the screen in this file and then use the identified button variable in the corresponding .java file to give that button function
