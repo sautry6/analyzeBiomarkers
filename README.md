@@ -24,3 +24,13 @@
 - Design file for the main activity screen
 - This is where you edit the visual design of the main screen of the app
   - Must establish what buttons will be on the screen in this file and then use the identified button variable in the corresponding .java file to give that button function
+
+## Goals for Code
+- How do we edit app icon? Inkscape
+- Make layout more professional
+  - Add more animation and settings
+- Make captured image cropped and fit on screen
+  - Already tried but needs to be optimized to only capture the uPAD and nothing else
+  - Maybe have manual cropping and centering of snowflake
+- FEATURE DETECTION to find outer wells
+  - Use circle diameter and predicted colors to use feature detection
